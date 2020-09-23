@@ -1,0 +1,117 @@
+{
+  "pages": [
+    "pages/login/main",
+    "pages/shops/main",
+    "pages/detail/main",
+    "pages/index/main",
+    "pages/car/main",
+    "pages/my/main",
+    "pages/address/main",
+    "pages/addaddress/main",
+    "pages/paylist/main",
+    "pages/sale/main",
+    "pages/order/main",
+    "pages/orderdetail/main",
+    "pages/express/main",
+    "pages/applysale/main",
+    "pages/saledetail/main",
+    "pages/pay/main",
+    "pages/spread/main",
+    "pages/userspread/main",
+    "pages/spreadlist/main",
+    "pages/bill/main",
+    "pages/bank/main",
+    "pages/addbank/main",
+    "pages/user/main",
+    "pages/password/main",
+    "pages/repassword/main",
+    "pages/editpassword/main",
+    "pages/wallet/main",
+    "pages/cashout/main",
+    "pages/withdraw/main",
+    "pages/withdetail/main",
+    "pages/balance/main",
+    "pages/balancedetail/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "selectedColor": "#e51c23",
+    "list": [ {
+      "text": "首页",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/tabs/home.png",
+      "selectedIconPath": "static/tabs/home-active.png"
+    },
+    {
+      "text": "商品",
+      "pagePath": "pages/shops/main",
+      "iconPath": "static/tabs/shop.png",
+      "selectedIconPath": "static/tabs/shop-active.png"
+    },
+    {
+      "text": "购物车",
+      "pagePath": "pages/car/main",
+      "iconPath": "static/tabs/car.png",
+      "selectedIconPath": "static/tabs/car-active.png"
+    },
+    {
+      "text": "我的",
+      "pagePath": "pages/my/main",
+      "iconPath": "static/tabs/my.png",
+      "selectedIconPath": "static/tabs/my-active.png"
+    }
+   ],
+    "items": [
+     {
+      "name": "首页",
+      "pagePath": "pages/index/main",
+      "icon": "static/tabs/home.png",
+      "activeIcon": "static/tabs/home-active.png"
+    },
+    {
+      "text": "商品",
+      "pagePath": "pages/shops/main",
+      "iconPath": "static/tabs/shop.png",
+      "selectedIconPath": "static/tabs/shop-active.png"
+    },  {
+      "text": "购物车",
+      "pagePath": "pages/car/main",
+      "iconPath": "static/tabs/car.png",
+      "selectedIconPath": "static/tabs/car-active.png"
+    },
+    {
+      "text": "我的",
+      "pagePath": "pages/my/main",
+      "iconPath": "static/tabs/my.png",
+      "selectedIconPath": "static/tabs/my-active.png"
+    }
+  ],
+  "plugins": {
+        "live-player-plugin": {
+            "version": "1.0.18",
+            "provider": "wx07e6d5c7f8e709cf" 
+        }
+    },
+    "subpackages": [
+      {
+          "plugins": {
+              "live-player-plugin": {
+                  "version": "1.0.18", 
+                  "provider": "wx07e6d5c7f8e709cf" 
+              }
+          }
+      }
+  ],
+    "position": "bottom"
+  }
+
+
+}

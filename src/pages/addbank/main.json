@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "银行卡绑定",
+  "usingComponents": {
+    "van-button": "/static/vant/button/index",
+    "van-cell": "/static/vant/cell/index",
+    "van-cell-group": "/static/vant/cell-group/index",
+    "van-icon": "/static/vant/icon/index",
+    "van-swipe-cell": "/static/vant/swipe-cell/index",
+    "van-dialog": "/static/vant/dialog/index",
+    "van-toast": "/static/vant/toast/index",
+    "van-field": "/static/vant/field/index",
+    "van-picker": "/static/vant/picker/index",
+    "van-popup": "/static/vant/popup/index",
+    "van-action-sheet": "/static/vant/action-sheet/index"
+  }
+}

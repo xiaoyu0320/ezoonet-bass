@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "添加地址",
+  "usingComponents": {
+    "van-toast": "/static/vant/toast/index",
+    "van-button": "/static/vant/button/index",
+    "van-cell": "/static/vant/cell/index",
+    "van-cell-group": "/static/vant/cell-group/index",
+    "van-icon": "/static/vant/icon/index",
+    "van-field": "/static/vant/field/index",
+    "van-popup": "/static/vant/popup/index",
+    "van-picker": "/static/vant/picker/index",
+    "van-switch": "/static/vant/switch/index"
+  }
+}
